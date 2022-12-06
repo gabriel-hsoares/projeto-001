@@ -156,6 +156,8 @@ input[type=submit]:hover {
     text-align: center;
     color: #462663;
     font-weight: normal;
+    padding: 20px 0;
+    margin-top: -30px;
 }
 
 .container-section {
@@ -167,7 +169,10 @@ input[type=submit]:hover {
 
 .container-single {
     width: 25%;
-    
     display: flex;
     flex-direction: column;
+}
+
+.container-single p {
+    text-align: justify;
 }
