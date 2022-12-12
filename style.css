@@ -173,6 +173,25 @@ input[type=submit]:hover {
     flex-direction: column;
 }
 
+.container-single img {
+    padding: 30px 0;
+}
+
 .container-single p {
     text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #999999;
+}
+
+footer h2 {
+    font-weight: normal;
+}
+
+footer a {
+    text-decoration: none;
+    color: #999999;
 }
